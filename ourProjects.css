@@ -1,0 +1,120 @@
+body{
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    font-family: 'Jost', sans-serif;
+}
+.logoAndName{
+    display: flex;
+    flex-direction: row;
+    margin-right: 467px;
+}
+header{
+    margin: 34px 120px 0px 80px;
+}
+.logoAndName h1{
+    margin-top: -10px;
+    margin-left: 11px;
+    font-size: 40px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+
+}
+header a{
+    text-decoration: none;
+    color: #292F36;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin-top: 19px;
+}
+.menu a{
+    margin-left: 40px;
+    white-space: nowrap;
+}
+.container .back{
+    margin-right: 200px;
+    background-image: url("img/Снимок экрана 2022-12-18 в 21.01.42.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+}
+.mebel{
+    display: flex;
+    flex-direction: row;
+}
+.mebel .card111{
+    margin-right: 40px;
+}
+.mebel .card111 img{
+    border-radius: 20px;
+}
+.alty{
+    display: flex;
+    flex-direction: column;
+    margin-left: 78px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+}
+footer .mmm{
+    width: 300px;
+    height: 50px;
+    margin-left: -47px;
+}
+footer .contact p{
+    margin-left: 0px;
+}
+footer .contact{
+    margin-top: -30px;
+    margin-left: -20px;
+
+}
+.bir{
+    margin-left: 100px;
+}
+.mmm p{
+    padding-left: 44px;
+}
+.tim{
+    display: flex;
+}
+.tim li{
+    width: 140px;
+    list-style: none;
+    background: #FFFFFF;;
+    position: relative;
+}
+.tim a{
+    color: #292F36;
+    text-decoration: none;
+    display: block;
+    margin-left: 20px;
+    height: 40px;
+    line-height: 40px;
+    transition: all .5s;
+}
+.tim ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    padding: 0;
+}
+.tim li:hover ul{
+    display: block;
+}
+.tim{
+    margin-top: -7px;
+    margin-left: -25px;
+    margin-right: -100px;
+}
+#rrr{
+    margin-left: -60px;
+}

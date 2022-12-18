@@ -1,0 +1,178 @@
+body{
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    font-family: 'Jost', sans-serif;
+}
+.logoAndName{
+    display: flex;
+    flex-direction: row;
+    margin-right: 467px;
+}
+header{
+    margin: 34px 120px 0px 80px;
+}
+.logoAndName h1{
+    margin-top: -10px;
+    margin-left: 11px;
+    font-size: 40px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+
+}
+header a{
+    text-decoration: none;
+    color: #292F36;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin-top: 19px;
+}
+.menu a{
+    margin-left: 40px;
+    white-space: nowrap;
+}
+.container .about{
+    margin-right: 200px;
+    background-image: url("img/Снимок экрана 2022-12-18 в 14.42.40.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+}
+.yourHome{
+    margin-top: 80px;
+    margin-left: 200px;
+    width: 850px;
+    height: 160px;
+    background-color: #F4F0EC;
+    color: #CDA274;
+    border-radius: 30px;
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.yourHome img{
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+.card p{
+    width: 400px;
+    height: 300px;
+    font-size: 20px;
+    margin-left: 0;
+}
+.card .soz12{
+    margin-right: 30px;
+}
+.card img{
+    border-radius: 50px;
+}.card2{
+     display: flex;
+     flex-direction: row;
+ }
+.card2 p{
+    width: 400px;
+    height: 300px;
+    font-size: 20px;
+    margin-left: 0px;
+}.card2 img{
+     border-radius: 50px;
+     margin-right: 45px;
+ }
+ .mysaldar{
+     margin-left: 85px;
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 100px;
+}
+ .tekst{
+     margin-left: 400px;
+ }
+.tekst p{
+    width: 500px;
+    height: 200px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: -100px;
+}
+.adam{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.adam img{
+    border-radius: 20px;
+}
+.adam h3, p{
+    margin-left: 50px;
+}
+.suretteri{
+    display: flex;
+    flex-direction: row;
+    margin-top: -140px;
+    margin-left: 100px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+}
+footer .mmm{
+    width: 300px;
+    height: 50px;
+    margin-left: -47px;
+}
+footer .contact p{
+    margin-left: 0px;
+}
+footer .contact{
+    margin-top: -30px;
+    margin-left: -20px;
+
+}
+.bir{
+    margin-left: 100px;
+}.tim{
+     display: flex;
+ }
+.tim li{
+    width: 140px;
+    list-style: none;
+    background: #FFFFFF;;
+    position: relative;
+}
+.tim a{
+    color: #292F36;
+    text-decoration: none;
+    display: block;
+    margin-left: 20px;
+    height: 40px;
+    line-height: 40px;
+    transition: all .5s;
+}
+.tim ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    padding: 0;
+}
+.tim li:hover ul{
+    display: block;
+}
+.tim{
+    margin-top: -7px;
+    margin-left: -25px;
+    margin-right: -100px;
+}
+#rrr{
+    margin-left: -60px;
+}
+
