@@ -12,14 +12,13 @@ header{
     margin: 34px 120px 0px 80px;
 }
 .logoAndName h1{
-    margin-top: -10px;
+    margin-top: -7px;
     margin-left: 11px;
     font-size: 40px;
 }
 header{
     display: flex;
     flex-direction: row;
-
 }
 header a{
     text-decoration: none;
@@ -29,10 +28,20 @@ header a{
     display: flex;
     flex-direction: row;
     margin-top: 19px;
+    margin-left: -100px;
 }
 .menu a{
     margin-left: 40px;
     white-space: nowrap;
+}
+.reg{
+    padding-left: -100px;
+}
+#log{
+    margin-left: -100px;
+}
+#sign{
+    margin-left: -170px;
 }
 .container .about{
     margin-right: 200px;

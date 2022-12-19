@@ -24,6 +24,14 @@ header a{
     text-decoration: none;
     color: #292F36;
 }
+header a:hover{
+    color: #CDA274;
+    transition: .3s;
+}
+header a:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
 .menu{
     display: flex;
     flex-direction: row;
@@ -32,6 +40,15 @@ header a{
 .menu a{
     margin-left: 40px;
     white-space: nowrap;
+}
+.reg{
+    padding-left: -100px;
+}
+#log{
+    margin-left: -50px;
+}
+#sign{
+    margin-left: -120px;
 }
 .suretAndText{
     display: flex;
@@ -52,21 +69,7 @@ header a{
     flex-direction: column;
     margin-top: -50px;
 }
-.getButton{
-    width: 207px;
-    height: 71px;
-    background-color: #292F36;
-    border-radius: 10px;
-    margin-top: 10px;
-}
-.getButton a{
-    text-decoration: none;
-    color: #FFFFFF;
-}
-.getButton .sss{
-    padding-top: 22px;
-    margin-left: 50px;
-}
+
 .dauSozder #lets{
     margin-bottom: -50px;
 }
