@@ -167,4 +167,12 @@ footer .contact{
     text-align: center;
     margin-left: 200px;
     margin-bottom: 30px;
+}.anima{
+     transform: translate(0px,200% );
+     opacity: 0;
+     transition: all 0.8s ease 0s;
+ }
+.anima._active{
+    transform: translate(0px, 0px);
+    opacity: 1;
 }
