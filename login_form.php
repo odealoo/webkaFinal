@@ -1,5 +1,7 @@
 <?php
 
+@include 'config.php';
+
 session_start();
 
 if(isset($_POST['submit'])){
@@ -7,18 +9,20 @@ if(isset($_POST['submit'])){
    $email = mysqli_real_escape_string($conn, $_POST['email']);
    $pass = mysqli_real_escape_string($conn,$_POST['password']);
 
-   $select = " SELECT * FROM user WHERE email = '$email' && password = '$pass' ";
+   $select = " SELECT * FROM user WHERE email = '$email' && password = '$pass' LIMIT 1 ";
    $conn = mysqli_connect('localhost','root','','project');
 
+
    $result = mysqli_query($conn, $select);
-   
+
    if(mysqli_num_rows($result) > 0){  
 
       $row = mysqli_fetch_array($result); 
+      $_SESSION['admin_name'] = $row['name'];
       header('location:admin_page.php');
 
    }else{
-      $message[] = 'incorrect email or password! ';
+      $error[] = ' incorrect email or password! ';
    }
 
 };
@@ -37,7 +41,7 @@ if(isset($_POST['submit'])){
 <body>
    <div class="form-container">
       <form action="" method="post">
-         <h3>login now</h3>
+         <h3>Login Form</h3>
          <?php
          if(isset($error)){
             foreach($error as $error){
@@ -45,11 +49,15 @@ if(isset($_POST['submit'])){
             };
          };
          ?>
-         <input type="email" name="email" required placeholder="enter your email">
-         <input type="password" name="password" required placeholder="enter your password">
-         <input type="submit" name="submit" value="login now" class="form-btn">
-         <p>Don't have an account? <a href="register_form.php">Register now</a></p>
+         <input type="email" name="email" required placeholder="Email address" autofocus="on">
+         <span></span>
+         <input type="password" name="password" minlength = "6" maxlength = "32" required placeholder="Password">
+         <span></span>
+         <input type="submit" name="submit" value="sign in" class="form-btn">
+         <p>Don't have an account? <a href="register_form.php">Sign up</a></p>
+
       </form>
    </div>
 </body>
 </html>
+
